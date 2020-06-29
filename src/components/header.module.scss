@@ -1,0 +1,32 @@
+.nav {
+    padding: 1rem 0 3rem;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    margin: 10px 0px 0px -15px;
+}
+
+.navItem a {
+    color: rgb(228, 85, 28);
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    &:hover {
+        color: burlywood;
+    }
+}
+
+.activeNavItem {
+    background-color: rgb(207, 205, 205);
+}
+
+.brand a {
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 3rem;
+    text-decoration: none;
+}
